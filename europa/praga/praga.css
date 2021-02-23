@@ -1,0 +1,174 @@
+* {box-sizing: border-box;}
+
+@media (max-width: 800px) {
+    body { background-color: grey;}
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+.title {
+    top: 0;
+    border: black;
+    border-bottom-style: dotted;
+    border-width: 5px;
+    width: 100%;
+    font-size: 40px; 
+    color:rgb(34, 34, 31); 
+    font-weight: bold;
+    font-family: 'Playfair Display SC', serif; 
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+
+a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: uppercase;
+    color: red;
+}
+
+a:visited {
+      text-decoration: black;
+  }
+
+#content {
+    margin-top: 74px;
+}
+.name {
+    color: darkslategrey;
+    font-size: 40px;
+    padding: 12px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+.introduction {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 50% 50%;
+    place-items: center center;
+}
+
+p {
+    background: red;
+    box-shadow: 10px 10px 5px grey;
+    padding: 5px;
+    text-align: center;
+}
+
+
+img {
+    width: 100%;
+}
+.slideshow {
+    max-width: 250px;
+    max-height: 400px;
+    position: relative;
+    margin-right: 15%;
+    margin-top: 15px;
+}
+
+.slide-fade {
+    display:none;
+}
+
+.slideshow .active {
+ display: block;
+}
+
+.dots {
+    text-align:center;
+    margin-top: -16px;
+    background-color: honeydew;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 12px;
+    background-color: honeydew;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 0 3px 3px 0;
+    transition: 0.6s ease;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+.caption {
+    background-color: honeydew;
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    padding: 5px;
+}
+h4 {
+    font-weight: 900;
+    text-align: center;
+}
+.list-wrapper {
+    text-align: center;
+}
+ul {
+    list-style-type: circle;
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.georgia-font, p, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
