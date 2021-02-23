@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: darkgray;
+    text-align: center;
+}
+.title {
+    border: black;
+    border-bottom-style: dotted;
+    border-width: 5px;
+    width: 100%;
+    font-size: 40px; 
+    color:rgb(34, 34, 31); 
+    font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
+    position: relative; 
+    padding: 20px;
+    
+}
+.name {
+    color: rgb(224 55 110);
+    font-size: 45px;
+    padding: 12px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+pre {
+    display: -webkit-inline-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: unset;
+    background: rgb(230 86 105);
+    border-radius: 6px;
+    border: 2px solid rgb(76 35 35);
+    padding: 5px;
+}
+.bold {
+    font-weight: 700;
+    color: #790540;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(223, 28, 135);
+}
+img {
+    width: 245px;
+    height: 290px;
+    margin-top: 10px;
+    border: 1px solid rgb(165, 160, 160);
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 20px;
+    
+}
+.pictures {
+    overflow: hidden;
+    display: inline-block;
+}
+.pictures img {
+    float: left;
+}
+
+figure {
+    margin: 0;
+    display: inline-block;
+}
+ figcaption { 
+    color: black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: small;
+     margin-left: 12px; 
+ }
+ figure img {
+     vertical-align: top;
+ }
+ hr {
+    border-top: 3px dotted #e07;
+    
+ }
+ span {
+     font-weight: 800;
+     color: #e07;
+}
+#vlog {
+    font-weight: 800;
+    color: cadetblue;
+}
