@@ -5,18 +5,29 @@
 body {
     text-align: center;
 }
+
 .title {
+    top: 0;
     border: black;
     border-bottom-style: dotted;
+    background-color: white;
     border-width: 5px;
     width: 100%;
     font-size: 40px; 
     color:rgb(34, 34, 31); 
     font-weight: bold;
     font-family: 'Playfair Display SC', serif;
-    position: relative; 
-    padding: 20px;
+    position: fixed; 
 }
+
+.title > a {
+    text-decoration: none;
+    color: black;
+}
+.title > a:hover {
+    color: red;
+}
+
 .name {
     color: red;
     font-size: 35px;
