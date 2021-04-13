@@ -1,9 +1,5 @@
 * {box-sizing: border-box;}
 
-@media (max-width: 800px) {
-    body { background-color: grey;}
-}
-
 body {
     width: 100%;
     margin: 0;

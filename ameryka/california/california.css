@@ -2,10 +2,11 @@
     box-sizing: border-box;
 }
 body {
-    background-color: darkgray;
     text-align: center;
 }
+
 .title {
+    top: 0;
     border: black;
     border-bottom-style: dotted;
     border-width: 5px;
@@ -13,19 +14,37 @@ body {
     font-size: 40px; 
     color:rgb(34, 34, 31); 
     font-weight: bold;
-    font-family: 'Playfair Display SC', serif;
-    position: relative; 
-    padding: 20px;
-    
+    font-family: 'Playfair Display SC', serif; 
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
 }
+
+.title > a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-transform: uppercase;
+    color: red;
+}
+
+a:visited {
+      text-decoration: black;
+  }
+
 .name {
+    margin-top: 60px;
     color: rgb(224 55 110);
     font-size: 45px;
     padding: 12px;
     font-weight: bolder;
     letter-spacing: 2px;
 }
-pre {
+
+p {
     display: -webkit-inline-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: unset;
@@ -33,6 +52,7 @@ pre {
     border-radius: 6px;
     border: 2px solid rgb(76 35 35);
     padding: 5px;
+    width: 100%;
 }
 .bold {
     font-weight: 700;
@@ -41,7 +61,7 @@ pre {
 
 a {
     text-decoration: underline;
-    color: rgb(223, 28, 135);
+    color: rgb(187, 12, 108);
 }
 img {
     width: 245px;
