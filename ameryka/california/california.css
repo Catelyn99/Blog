@@ -5,43 +5,8 @@ body {
     text-align: center;
 }
 
-.title {
-    top: 0;
-    border: black;
-    border-bottom-style: dotted;
-    border-width: 5px;
-    width: 100%;
-    font-size: 40px; 
-    color:rgb(34, 34, 31); 
-    font-weight: bold;
-    font-family: 'Playfair Display SC', serif; 
-    background-color: white;
-    text-align: center;
-    position: fixed;
-    z-index: 1;
-}
-
-.title > a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-transform: uppercase;
-    color: red;
-}
-
-a:visited {
-      text-decoration: black;
-  }
-
 .name {
-    margin-top: 60px;
     color: rgb(224 55 110);
-    font-size: 45px;
-    padding: 12px;
-    font-weight: bolder;
-    letter-spacing: 2px;
 }
 
 p {
@@ -98,10 +63,12 @@ figure {
     border-top: 3px dotted #e07;
     
  }
- span {
+ .introduction {
      font-weight: 800;
      color: #e07;
+     margin-bottom: 10px;
 }
+
 #vlog {
     font-weight: 800;
     color: cadetblue;

@@ -1,0 +1,10 @@
+.ytplayer {
+    width: 640px;
+    height: 360px;
+}
+
+@media (max-width: 768px) { 
+.ytplayer {
+    width: 100%;
+}
+}

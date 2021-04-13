@@ -1,0 +1,41 @@
+
+.title {
+    top: 0;
+    border: black;
+    border-bottom-style: dotted;
+    border-width: 5px;
+    width: 100%;
+    font-size: 40px; 
+    color:rgb(34, 34, 31); 
+    font-weight: bold;
+    font-family: 'Playfair Display SC', serif; 
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.title > a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-transform: uppercase;
+    color: red;
+}
+
+a:visited {
+      text-decoration: black;
+  }
+
+  .name {
+      margin-top: 60px;
+    color: darkslategrey;
+    font-size: 45px;
+    padding: 12px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 2px;
+}
