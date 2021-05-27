@@ -4,6 +4,8 @@ About traveling.
 ## Live demo
 🔗 [Blog](https://catelyn99.github.io/Blog/blog)
 
+![Blog](blog.png?raw=true "Blog")
+
 ## General Info
 My first project where I learned to use HTML5 and CSS3.
 I wanted to show my progress in science.
