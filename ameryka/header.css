@@ -1,14 +1,11 @@
-
 .title {
     top: 0;
-    border: black;
-    border-bottom-style: dotted;
-    border-width: 5px;
+    border-bottom: 5px dotted black;
     width: 100%;
-    font-size: 40px; 
-    color:rgb(34, 34, 31); 
+    font-size: 40px;
+    color: rgb(34, 34, 31);
     font-weight: bold;
-    font-family: 'Playfair Display SC', serif; 
+    font-family: "Playfair Display SC", serif;
     background-color: white;
     text-align: center;
     position: fixed;
@@ -26,16 +23,16 @@ a:hover {
 }
 
 a:visited {
-      text-decoration: black;
-  }
+    text-decoration: black;
+}
 
-  .name {
-      margin-top: 60px;
+.name {
+    margin-top: 60px;
     color: darkslategrey;
     font-size: 45px;
     padding: 12px;
     font-weight: bolder;
     text-align: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: "Playfair Display SC", serif;
     letter-spacing: 2px;
 }
